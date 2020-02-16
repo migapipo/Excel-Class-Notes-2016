@@ -50,3 +50,37 @@ Or you can select the New Sheet option. The field to the right is an input field
 [Move Chart dialog box]
 
 If you move your chart as an object to another sheet or as a new sheet and don't like the result (say, your boss changed her mind), use the Move Chart Location option to change it back.
+
+
+# Chapter 3: Switch Row/Column Data
+
+## Switch Row/Column Data
+
+When we entered our data into our worksheet, we arranged it in a columnar fashion with the months down one column and their corresponding sales numbers in the adjacent column. Excel interpreted the data this way and created the charts accordingly. But sometimes Excel gets it wrong and assumes you assembled the data in a row fashion. If you create your chart and the information on the X and Y axes appears to be switched, here's a simple solution that will correct the problem.
+
+Before you begin, let's add a legend to the chart because it will help illustrate the switch row/column concept when you see what each colored column represents before and after the change. Make sure your chart is active, and select the Chart Elements option (plus sign icon) to the right of your chart. Place a check mark next to **Legend**. A legend appears to the right of the plot area in your chart. As you can see, the blue columns represent sales. Also note that the horizontal axis is a list of the various months in your data. Click the **Chart Elements** icon again to hide the Chart Elements menu options.
+
+From the Chart Tools Ribbon, on the **Design** tab, locate the section labeled **Data**. (Remember, if the Chart Tools Ribbon is missing, simply click anywhere on the chart to bring it back into view.)
+
+Now, from the Data section, click **Switch Row/Column** to switch the orientation of the two axes. As you can see, the colored columns represent the months (look at your legend) and the horizontal axis row represents sales. The height of each column still represents the sales value, so they're both correct. One just gives you a different look at the data. In the example, the changes are pretty much just cosmetic. But as you experiment with this option on your own data, you'll encounter changes that may be dramatic or may produce a result that doesn't tell the story you want it to. So, please be cautious.
+
+Click the Switch Row/Column icon again, and your chart will snap back to its original state. This icon acts as a toggle, so if you ever get a chart that doesn't tell the story you were hoping, give the Switch Row/Column icon a try.
+
+## Titles
+Adding a title to your chart is as simple as the steps to add a legend. Click the Chart Elements option (plus sign), and place a check mark next to **Chart Title**. Click the **Chart Elements** icon again to close the menu.
+
+### Editing Chart Text
+The boss will probably want a title other than the default Chart Title, so let's change that. Notice that the title has appeared at the top of the chart area, and there are lines and circles in each of the corners. This means the title is currently active. If you don't have this border anymore, it probably means you clicked elsewhere on your worksheet tab and the title is no longer the active item. To remedy this, simply click the chart title to activate it again. With the title active, just begin typing a new title. It's that simple. As you're typing, you won't see the chart title follow along, but if you look in the formula bar, you'll see what you're typing. Go ahead and type the words Monthly Sales as your new title. When done, press ENTER.
+
+Here's how it should look after the chart title update:
+
+
+
+## Data Labels
+Data labels can add a little flair to your chart plot area. Data labels are normally numbers, but you can also display them as percentages or even as category names. It all depends on the type of chart you're working with. Each of the different chart types may have different options. As I mentioned earlier, I chose a chart type with data labels because that's my preference. But the default font color or format may be less than ideal. Here's how to edit them:
+
+Select any one of the numeric data labels. By default, all of them are selected and now have a border around them. Go to the Home tab and select a new font color, like black or something dark. Instantly, your data labels within your chart reflect the new font color.
+
+Be aware that you can also change the font color and other elements of your chart by going to the Format tab and utilizing options in the Shape Styles and WordArt Styles groups. Since the exercise above was a simple font color change, by habit I always do these from the **Home** tab since all of my nonchart formatting changes are done here as well. But feel free to use the option that works best for you.
+
+
