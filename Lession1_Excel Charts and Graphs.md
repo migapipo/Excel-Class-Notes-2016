@@ -83,4 +83,27 @@ Select any one of the numeric data labels. By default, all of them are selected 
 
 Be aware that you can also change the font color and other elements of your chart by going to the Format tab and utilizing options in the Shape Styles and WordArt Styles groups. Since the exercise above was a simple font color change, by habit I always do these from the **Home** tab since all of my nonchart formatting changes are done here as well. But feel free to use the option that works best for you.
 
+# Chapter 4: Chart Formatting
+## Chart Formatting
+The number of options to format a chart is nearly limitless, and to add to the confusion, there are different ways to get to these options. For example, you've already completed exercises where you've used the context-specific chart tabs in the Ribbon, the Chart Elements icon next to the chart, as well as the font options on the Home tab.
 
+As I mentioned earlier, you'll find the more complex or obscure options in the Ribbon. In fact, all chart options will be in the Ribbon somewhere. I tend to go to the three icons to the right of my chart first. If the option I need isn't there, then I go to the Ribbon.
+
+## Current Selection
+On the Format tab, the top option in the Current Selection area is Chart Elements. Click the drop-down arrow to see all the different chart elements available for your chart type. Choose an item, such as Chart Title. Notice the title in your chart is now selected and has a border around it. By choosing the appropriate option in the Chart Elements list, you can quickly select the corresponding item in the chart itself.
+
+The reverse also works. If you click an element on the chart, it will change the option in the Chart Elements list to match. To see how this works, use your cursor to select your chart legend. When you click the legend, you'll see the Chart Elements list changes to match the item you selected.
+
+I point this out because the Chart Elements list can help you identify any component of your chart. It can also provide you with a visual cue in case you click a piece of your chart and wonder if you've selected the right item. When you click the item on the chart, simply look up into the Chart Elements list and see what's displayed.
+
+
+
+
+# Q&A
+Q: The Chart Tools Ribbon disappears from time to time. How do I make it visible again?
+
+A: Simple! Just click any chart or graph in your workbook, and Excel will automatically retrieve the Chart Tools Ribbon for you to use.
+
+Q: Why don't you insert a space between words on your sheet names? Wouldn't that make them easier to read?
+
+A: Actually, Excel will allow you to use spaces in sheet names. However, it can make your life a little more difficult if you later decide that you want to write a formula using values scattered across two or more different sheets. Keeping spaces out of the sheet names will make it much easier to write those kinds of formulas, should the need arise.
